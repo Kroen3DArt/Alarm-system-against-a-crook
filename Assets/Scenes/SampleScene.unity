@@ -512,6 +512,7 @@ GameObject:
   - component: {fileID: 1589007550}
   - component: {fileID: 1589007551}
   - component: {fileID: 1589007553}
+  - component: {fileID: 1589007554}
   - component: {fileID: 1589007552}
   m_Layer: 0
   m_Name: AlarmDetecter
@@ -662,6 +663,19 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: d0c1800e1869c3a4db5eafed0689d13e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _volumeChanger: {fileID: 1589007554}
+--- !u!114 &1589007554
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1589007549}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d4a36bb47e6dd084ebd77da19ab30bcb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   _audioSource: {fileID: 1589007552}
